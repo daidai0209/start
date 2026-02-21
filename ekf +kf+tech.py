@@ -362,7 +362,7 @@ def update_ui(ekf_x, ekf_y, raw_pt_x, raw_pt_y, current_time):
         lbl_status_icon.config(text="🟢", bootstyle="success")
         lbl_status_main.config(text="監測中 - 正常", bootstyle="success")
         lbl_zone_name.config(bootstyle="info")
-
+ 
 async def tcp_reader():
     print("⏳System Starting...")
     log_msg("系統啟用，等待TCP連線...")
